@@ -1,21 +1,15 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #d3d3d3; /* Легкий серый фон */
-    overflow: hidden; /* Отключить прокрутку */
-    color: black;
-}
-
 #top-image {
     position: absolute;
     top: 10px;
     width: 100%;
     text-align: center;
+}
+
+#score {
+    font-size: 48px;
+    margin-top: 20px;
+    color: white;
+    position: relative; /* Переместите счетчик ниже */
 }
 
 #game {
@@ -36,30 +30,5 @@ body {
     cursor: pointer;
     position: relative;
     transition: transform 0.1s ease; /* Анимация уменьшения */
-}
-
-#score {
-    position: absolute;
-    top: 40 px;
-    font-size: 48px;
-    color: black;
-}
-
-.points {
-    position: absolute;
-    font-size: 32px;
-    color: black;
-    animation: rise 1s ease-out;
-    pointer-events: none;
-}
-
-@keyframes rise {
-    0% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
+    margin-bottom: 20px; /* Отступ для размещения счетчика ниже */
 }
