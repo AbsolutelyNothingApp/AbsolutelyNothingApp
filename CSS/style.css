@@ -41,7 +41,7 @@ body {
 #score {
     font-size: 48px;
     margin-top: 20px;
-    color: black;
+    color: #d3d3d3;
     position: relative; /* Переместите счетчик ниже */
 }
 
