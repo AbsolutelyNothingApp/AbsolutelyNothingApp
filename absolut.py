@@ -39,7 +39,7 @@ async def start(update: Update, context):
     data = load_data()
     user_score = get_user_score(user_id, data)
     keyboard = [
-        [InlineKeyboardButton("Играть", web_app=WebAppInfo(url="https://absolutelynothingapp.github.io/"))]
+        [InlineKeyboardButton("Играть", web_app=WebAppInfo(url="https://absolutelynothingapp.github.io/AbsolutelyNothingApp/"))]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text('Absolutely Nothing. You can press "Play",if you want but for what?.', reply_markup=reply_markup)
