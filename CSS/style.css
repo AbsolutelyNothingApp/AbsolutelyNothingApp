@@ -48,7 +48,7 @@ body {
 .points {
     position: absolute;
     font-size: 32px;
-    color: green;
+    color: black;
     animation: rise 1s ease-out;
     pointer-events: none;
 }
