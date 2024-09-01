@@ -31,7 +31,7 @@ body {
 #coin {
     width: 200px;
     height: 200px;
-    background-image: url('../images/coin.png'); /* Ваше изображение монетки */
+    background-image: url('Images/coin.png'); /* Ваше изображение монетки */
     background-size: cover;
     cursor: pointer;
     position: relative;
