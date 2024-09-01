@@ -46,7 +46,7 @@ async def start(update: Update, context):
 
 # Основная функция для запуска бота
 async def main():
-    application = Application.builder().token("6926943403:AAEXHHWGc-u_TcyjGN6OKX_UOkhqp9W-lRM").build()
+    application = Application.builder().token("66926943403:AAEXHHWGc-u_TcyjGN6OKX_UOkhqp9W-lRM").build()
 
     # Команда /start
     application.add_handler(CommandHandler("start", start))
